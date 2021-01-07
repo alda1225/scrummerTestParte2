@@ -21,7 +21,7 @@
 <br> <br>
 <p><strong>Metodos GET</strong></p>
 <p><strong>http://localhost:8091/api/figura</strong> es link que genera el servicio  para listar las figuras creadas con el metodo POST.</p>
-<p><strong>http://localhost:8091/api/figura/circulo</strong> es link que genera el servicio  para listar las figuras por tipo de figura donde el parametro '/circulo' puede ser cambiado por el tipo de figura que desea listar.</p>
+<p><strong>http://localhost:8091/api/figura/circulo</strong> es link que genera el servicio  para listar las figuras por tipo de figura donde el parametro <strong>'/circulo'</strong> puede ser cambiado por el tipo de figura que desea listar.</p>
 <br> <br>
 <br> <br>
 <p><strong>SERVICIOS</p>
