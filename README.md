@@ -5,9 +5,9 @@
 <p>Dentro de el mismo se encuntra el paquete "com.scrummertest.test" donde se encuentra <strong>"FiguraApplication"</strong> para correr la aplicación.</p>
 <p>Dentro del archivo <strong>"application.properties"</strong> se puede configurar el puerto y parametros para el acceso a la base de datos.</p>
 <p>Se debe crear una base de datos en Postgresql con el nombre "scrummerdb" o el nombre configurado en <strong>"application.properties"</strong>.</p>
-
+<br> <br>
 <p><strong>Metodos POST</strong></p>
-<p>'http://localhost:8091/api/figura' es el link del servicio para crear las figuras en la base de datos esta recibe por parametros:</p>
+<p><strong>http://localhost:8091/api/figura'</strong> es el link del servicio para crear las figuras en la base de datos esta recibe por parametros:</p>
 <p>
 <strong>JSON = </strong> {
     "superficie":"1F",
@@ -18,11 +18,12 @@
 }</strong>
 </p>
 <p>donde 'tipoFigura' solo acepta triangulo, cuadrado y circulo</p>
-</p> </p>
+<br> <br>
 <p><strong>Metodos GET</strong></p>
-<p>'http://localhost:8091/api/figura' es link que genera el servicio  para listar las figuras creadas con el metodo POST.</p>
-<p>'http://localhost:8091/api/figura/circulo' es link que genera el servicio  para listar las figuras por tipo de figura donde el parametro '/circulo' puede ser cambiado por el tipo de figura que desea listar.</p>
-
+<p><strong>http://localhost:8091/api/figura</strong> es link que genera el servicio  para listar las figuras creadas con el metodo POST.</p>
+<p><strong>http://localhost:8091/api/figura/circulo</strong> es link que genera el servicio  para listar las figuras por tipo de figura donde el parametro '/circulo' puede ser cambiado por el tipo de figura que desea listar.</p>
+<br> <br>
+<br> <br>
 <p><strong>SERVICIOS</p>
 
 Desarrollar una API Rest en JAVA, para el registro y obtención de datos de figuras
