@@ -3,7 +3,7 @@
 <p><strong>Documentacion</strong></p>
 <p>El proyecto esta creado utilizando el IDE Spring Tool Suite version 4 y base de datos en Postgresq.l</p>
 <p>Dentro de el mismo se encuntra el paquete "com.scrummertest.test" donde se encuentra <strong>"FiguraApplication"</strong> para correr la aplicación.</p>
-<p>Dentro del archivo "application.properties" se puede configurar el puerto y parametros para el acceso a la base de datos.</p>
+<p>Dentro del archivo <strong>"application.properties"</strong> se puede configurar el puerto y parametros para el acceso a la base de datos.</p>
 <p>Se debe crear una base de datos en Postgresql con el nombre "scrummerdb" o el nombre configurado en <strong>"application.properties"</strong>.</p>
 
 <p><strong>Metodos POST</strong></p>
